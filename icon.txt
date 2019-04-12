@@ -1,0 +1,13 @@
+https://fontawesome.com/icons/map-marked-alt?style=solid
+
+https://fonts.google.com/selection?selection.family=Baloo+Paaji
+<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
+font-family: 'Baloo Paaji', cursive;
+
+https://fonts.google.com/selection?selection.family=Noto+Serif+TC
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC" rel="stylesheet">
+font-family: 'Noto Serif TC', serif;
+
+https://fonts.google.com/selection?selection.family=Noto+Sans+TC
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+font-family: 'Noto Sans TC', sans-serif;
