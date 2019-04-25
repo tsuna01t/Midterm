@@ -2066,6 +2066,9 @@ input, select, textarea {
 		.icon.style3 {
 			color: #76ddff;
 		}
+		.icon.style4 {
+			color: #4a8ae9;
+		}
 
 /* Image */
 
@@ -3977,3 +3980,8 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+/* poi */
+.news{
+		text-indent: 2em;
+}

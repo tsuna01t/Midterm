@@ -12,7 +12,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
 </head>
@@ -25,6 +26,7 @@
 		<!-- Header -->
 		<header id="header" class="alt">
 			<h1><a href="index.html">泰⼭職業訓練場</a></h1>
+			<div w3-include-html="./nav.html"></div>
 			<nav id="nav">
 				<ul>
 					<li class="special">
@@ -33,9 +35,7 @@
 							<ul>
 								<li><a href="index.html">首頁</a></li>
 								<li><a href="map.html">交通地圖</a></li>
-								<!-- <li><a href="elements.html">Elements</a></li> -->
-								<!-- <li><a href="#">Sign Up</a></li> -->
-								<!-- <li><a href="#">Log In</a></li> -->
+								<li><a href="news.html">熱門新聞</a></li>
 							</ul>
 						</div>
 					</li>
@@ -48,14 +48,15 @@
 			<div class="inner">
 				<h2>泰⼭職業訓練場</h2>
 				<p>
-					提供職前訓練、訓練研究發展及推廣業務、台德菁英專案計畫、<br/>
+					提供職前訓練、訓練研究發展及推廣業務、台德菁英專案計畫、<br />
 					辦理資訊軟體人才、新興重點發展產業科技人才職業訓練業務。
 				</p>
 				<!-- <p>Another fine responsive<br />
 					site template freebie<br />
 					crafted by <a href="http://html5up.net">HTML5 UP</a>.</p> -->
 				<ul class="actions special">
-					<li><a href="#" class="button primary">Activate</a></li>
+					<li><a href="https://www.youtube.com/watch?v=Aai9IZHkRJY" target="_blank"
+							class="button primary">介紹影片</a></li>
 				</ul>
 			</div>
 			<a href="#one" class="more scrolly">更多</a>
@@ -65,15 +66,21 @@
 		<section id="one" class="wrapper style1 special">
 			<div class="inner">
 				<header class="major">
-					<h2>Arcu aliquet vel lobortis ata nisl<br />
-						eget augue amet aliquet nisl cep donec</h2>
-					<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-						fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+					<h2>108年度自辦訓練<a
+							href="https://ws.wda.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMzA4L3JlbGZpbGUvOTE1MS85Mjg1MS9hNzU5YmQ3Zi1mOTYwLTQ2ZWItODNlMi00MDc5MmExMjdkNTcucGRm&n=MTA45bm05bqm6IG35YmN6KiT57e05oub55Sf57Ch56ugLnBkZg%3d%3d"
+							target="_blank">職前</a>、<a
+							href="https://ws.wda.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMzA4L3JlbGZpbGUvOTE1MS85MzUyMy8zZTkwM2VkYy05ZTI2LTQxYTEtOTMwNi0yNTU4MjM2NDM1YTYucGRm&n=MjAxODEyXzEwOOW5tOW6puWcqOiBt%2biok%2be3tOaLm%2beUn%2bewoeeroC3lhajlhooucGRm"
+							target="_blank">在職</a>招生簡章已公告在<a href="https://tkyhkm.wda.gov.tw/Default.aspx"
+							target="_blank">本分署全球資訊網</a>囉！</h2>
+					<p>歡迎15歲以上並具就業意願且符合招生簡章各班別學歷資格之失業或待業者前來報名參加！<br />
+						而有關自辦在職訓練實施對象，為具勞工保險、農民健康保險或就業保險被保險人身份之在職勞工，想了解相關詳情可至相關網站查詢喔！</p>
 				</header>
 				<ul class="icons major">
-					<li><span class="icon far fa-gem major style1"><span class="label">Lorem</span></span></li>
-					<li><span class="icon far fa-heart major style2"><span class="label">Ipsum</span></span></li>
-					<li><span class="icon fas fa-code major style3"><span class="label">Dolor</span></span></li>
+					<li><span class="icon fas fa-award major style1"><span class="label"></span></span></li>
+					<li><span class="icon fas fa-chalkboard-teacher major style2"><span class="label"></span></span>
+					</li>
+					<li><span class="icon fas fa-book-reader major style3"><span class="label"></span></span></li>
+					<li><span class="icon fas fa-laptop-code major style4 "><span class="label"></span></span></li>
 				</ul>
 			</div>
 		</section>
@@ -83,70 +90,79 @@
 			<section class="spotlight">
 				<div class="image"><img src="images/pic01.jpg" alt="" /></div>
 				<div class="content">
-					<h2>Magna primis lobortis<br />
-						sed ullamcorper</h2>
-					<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla
-						nullam aenean mi ligula.</p>
+					<h2>PHP資料庫網頁設計</h2>
+					<p>現今網路已經和生活密不可分，所有網路網頁或App介面設計需求暴增，UI/UX設計已成顯學，可以發現市場對於設計人才的需求大增。現有的UI設計與UX規劃，包含了許多的工具軟體與技術的學習，從Photoshop、Illustrator、Dreamweaver到程式語言HTML、CSS、JavaScript、jQuery及PHP資料庫建置都是目前業界所需的必備技能。但是不論學習哪些技術，最重要的還是必須設計出一個好用、吸引人的網站，擁有RWD網站設計能力以及動態圖像表達能力，才能更具就業競爭力。
+					</p>
 				</div>
 			</section>
 			<section class="spotlight">
 				<div class="image"><img src="images/pic02.jpg" alt="" /></div>
 				<div class="content">
-					<h2>Tortor dolore feugiat<br />
-						elementum magna</h2>
-					<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla
-						nullam aenean mi ligula.</p>
+					<h2>升降機裝修(產訓班)</h2>
+					<p>為響應政府節能減碳政策，並落實於產業與生活之中，也配合能源服務業，除因應趨勢及節省成本，對於大樓、建物與物業管理公司也需要有相關經驗與專長的人力投入，以維護管理與全方位經營作準備。</p>
 				</div>
 			</section>
 			<section class="spotlight">
 				<div class="image"><img src="images/pic03.jpg" alt="" /></div>
 				<div class="content">
-					<h2>Augue eleifend aliquet<br />
-						sed condimentum</h2>
-					<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla
-						nullam aenean mi ligula.</p>
+					<h2>電機設計維修</h2>
+					<p>配合國家經濟建設及產業轉型，室內配線人力需求，協助行業培訓配管專業技術人員，以促進國家經濟建設及工業發展。</p>
 				</div>
 			</section>
 		</section>
 
 		<!-- Three -->
-		<section id="three" class="wrapper style3 special">
+		<section id="three" class="wrapper style3">
 			<div class="inner">
 				<header class="major">
-					<h2>Accumsan mus tortor nunc aliquet</h2>
-					<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-						fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+					<h2>PHP資料庫網頁設計</h2>
+					<p>訓練目標：<br>
+						一、學科:使受訓學員能熟悉網際網路應用有關、網頁設計、資料庫規劃、程式設計等相關專業知識。<br>
+						二、術科:使受訓學員熟練網頁美編基礎、動態資料庫程式設計專業技能，於結訓後能從事網站規劃程式設計師、資料庫規劃開發，網頁圖案繪製及美工排版等相關行業之工作。<br>
+						三、品德:使受訓學員能有職業道德，企業倫理，以陶冶其品德。 四、 輔導考照：網頁設計乙級技術士。<br>
+						就業展望：學員結訓後可擔任：
+						<ol>
+							<li>平面設計師</li>
+							<li>美術編輯人員</li>
+							<li>網頁視覺設計師</li>
+							<li>UI介面設計人員</li>
+							<li>網站程式設計師</li>
+							<li>PHP資料庫規劃開發人員</li>
+						</ol>
+					</p>
 				</header>
 				<ul class="features">
 					<li class="icon far fa-paper-plane">
-						<h3>Arcu accumsan</h3>
-						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo
-							Aenean ligula consequat consequat.</p>
-					</li>
-					<li class="icon fas fa-laptop">
-						<h3>Ac Augue Eget</h3>
-						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo
-							Aenean ligula consequat consequat.</p>
+						<h3>一般與共同課程(39小時)</h3>
+						<p>報到開訓、輔導管理、生活津貼、職業訓練與就業服務資源介紹、勞工安全衛生等</p>
 					</li>
 					<li class="icon fas fa-code">
-						<h3>Mus Scelerisque</h3>
-						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo
-							Aenean ligula consequat consequat.</p>
+						<h3>網頁排版編輯(120小時)</h3>
+						<p>HTML標籤、CSS樣式、Dreamweaver網頁設計</p>
+					</li>
+					<li class="fab fa-adobe">
+						<h3>視覺影像設計(160小時)</h3>
+						<p>Photoshop數位影像處理、Illustrator向量繪圖設計</p>
 					</li>
 					<li class="icon fas fa-headphones">
-						<h3>Mauris Imperdiet</h3>
-						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo
-							Aenean ligula consequat consequat.</p>
+						<h3>數位媒體應用(89小時)</h3>
+						<p>視覺傳達編排設計、UI/UX設計流程</p>
 					</li>
 					<li class="icon far fa-heart">
-						<h3>Aenean Primis</h3>
-						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo
-							Aenean ligula consequat consequat.</p>
+						<h3>網頁動態技術(120小時)</h3>
+						<p>jQuery視覺效果、JQM開發應用、Bootstrap工具應用、CMS架站系統</p>
 					</li>
-					<li class="icon far fa-flag">
-						<h3>Tortor Ut</h3>
-						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo
-							Aenean ligula consequat consequat.</p>
+					<li class="fas fa-database">
+						<h3>資料庫程式設計(160小時)</h3>
+						<p>PHP資料庫應用、XAMPP伺服器架設、JavaScript動態功能</p>
+					</li>
+					<li class="fas fa-network-wired">
+						<h3>資訊網路概論(32小時)</h3>
+						<p>資訊架構及網路應用概論</p>
+					</li>
+					<li class="fas fa-certificate">
+						<h3>網頁設計實務(200小時)</h3>
+						<p>網頁設計乙級檢定術科輔導</p>
 					</li>
 				</ul>
 			</div>
@@ -156,12 +172,11 @@
 		<section id="cta" class="wrapper style4">
 			<div class="inner">
 				<header>
-					<h2>Arcue ut vel commodo</h2>
-					<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+					<h2>猶豫 就會敗北</h2>
 				</header>
 				<ul class="actions stacked">
-					<li><a href="#" class="button fit primary">Activate</a></li>
-					<li><a href="#" class="button fit">Learn More</a></li>
+					<li><a href="https://www.taiwanjobs.gov.tw/Internet/index/CourseQuery_detail.aspx?oid=120671" class="button fit primary" target="new">立即報名</a></li>
+					<!-- <li><a href="#" class="button fit">Learn More</a></li> -->
 				</ul>
 			</div>
 		</section>
@@ -180,8 +195,8 @@
 			</ul>
 			<ul class="copyright">
 				<li>&copy; POI</li>
-				<li>Design: LEO <a href="https://github.com/tsuna01t" class="icon fab fa-github" target="_blank"><span class="label"
-					target="_blank"></span></a></li>
+				<li>Design: LEO <a href="https://github.com/tsuna01t" class="icon fab fa-github" target="_blank"><span
+							class="label" target="_blank"></span></a></li>
 			</ul>
 		</footer>
 
